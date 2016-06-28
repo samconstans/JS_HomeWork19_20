@@ -32,11 +32,9 @@ header {
 }
 
 .list--link {
-  width: 24px;
-  height: 20px;
+  width: 23px;
+  height: 19px;
   display: block;
-  background: url('../img/sprite1.png') no-repeat;
-  background-position-y: 0;
 }
 
 .list--link:hover {
@@ -44,23 +42,54 @@ header {
 }
 
 .fb {
-  background-position-x: 0;
+  background-image: url('../img/sprite1.png');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+}
+
+.fb:hover {
+  background-position:0 -20px;
 }
 
 .tw {
-  background-position-x: -28px;
+  background-image: url('../img/sprite1.png');
+  background-position: -28px 0;
+  background-repeat: no-repeat;
+}
+
+.tw:hover {
+  background-position:-28px -20px;
 }
 
 .rss {
-  background-position-x: -60px;
+  background-image: url('../img/sprite1.png');
+  background-position: -60px 0;
+  background-repeat: no-repeat;
 }
 
+.rss:hover {
+  background-position:-60px -20px;
+}
+
+
 .lin {
-  background-position-x: -92px;
+  background-image: url('../img/sprite1.png');
+  background-position: -92px 0;
+  background-repeat: no-repeat;
+}
+
+.lin:hover {
+  background-position:-92px -20px;
 }
 
 .sk {
-  background-position-x: -126px;
+  background-image: url('../img/sprite1.png');
+  background-position: -126px 0;
+  background-repeat: no-repeat;
+}
+
+.sk:hover {
+  background-position:-126px -20px;
 }
 //**
 
@@ -154,7 +183,7 @@ header {
   position: relative;
   top: -240px;
   left: 36px;
-  background: url("../img/Rectangle%208%20copy.png") no-repeat;
+  background: url("../img/Rectangle-8-copy.png") no-repeat;
   color: $color1;
   font-family: "Ubuntu Medium";
   font-size: 54px;
@@ -595,13 +624,13 @@ footer {
 }
 
 .phone::before {
-  content: url('../img/iPhone%20potrait.png');
+  content: url('../img/iPhone-potrait.png');
   display: inline-block;
   margin-right: 9px;
 }
 
 .email::before {
-  content: url('../img/front%20email.png');
+  content: url('../img/front-email.png');
   display: inline-block;
   margin-right: 14px;
 }
